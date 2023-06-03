@@ -1,0 +1,51 @@
+/* CSS clear */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Testimonials block */
+
+#testimonials h2 {
+    padding: 1em 0;
+    text-align: center;
+}
+
+#testimonials .slider-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 600px 1fr;
+}
+
+#testimonials .shutter {
+    background-color: white;
+    z-index: 1;
+}
+
+#testimonials .slider {
+    height: 12em;
+    margin: 0 auto;
+    position: relative;
+    width: 600px;
+}
+
+#testimonials article {
+    left: 600px;
+    margin: 0 50px;
+    opacity: 0;
+    padding: 1em;
+    position: absolute;
+    transition: left 1s, opacity 1s;
+    width: 500px;
+}
+
+#testimonials article.past {
+    left: -600px;
+    opacity: 0;
+}
+
+#testimonials article.active {
+    left: 0;
+    opacity: 1;
+}
