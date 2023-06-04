@@ -1,0 +1,224 @@
+/**************************/
+/* HEADER */
+/**************************/
+.first-line-header {
+  justify-content: space-between;
+  padding: 1rem 13rem 0 13rem;
+  border-bottom: 0.1rem solid black;
+}
+
+.logo-img {
+  height: 8.8rem;
+}
+
+.search-glass {
+  height: 2.8rem;
+  opacity: 0.6;
+}
+
+.social-media-img {
+  height: 2.1rem;
+}
+
+.search-form {
+  font-size: 2rem;
+  border: none;
+  padding-left: 1rem;
+  outline: none;
+  line-height: 1.5;
+  height: 5rem;
+}
+
+.social-media-icons {
+  gap: 2rem;
+  /* filter: brightness(0.8) invert(1); */
+}
+
+.social-media-link:hover,
+.social-media-link:active {
+  opacity: 0.7;
+}
+
+.second-line-header {
+  justify-content: space-between;
+  padding: 1.5rem 13rem;
+  background-color: #f6ecec;
+}
+
+.menu {
+  gap: 5rem;
+  font-size: 1.5rem;
+}
+
+.lists-link:link,
+.lists-link:visited {
+  color: rgb(60, 128, 66);
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+.lists-link:hover,
+.lists-link:active {
+  color: rgb(103, 174, 109);
+}
+
+.user-section {
+  gap: 6rem;
+}
+
+.signup-login {
+  gap: 0.6rem;
+}
+
+.signup-login:hover,
+.signup-login:active,
+.shopping-cart:hover,
+.shopping-cart:active {
+  opacity: 0.7;
+}
+
+.login-text,
+.your-cart {
+  font-size: 1.5rem;
+}
+
+.login-img {
+  height: 2.8rem;
+}
+
+.cart-img {
+  height: 3rem;
+}
+
+.cart-header {
+  position: relative;
+  width: 5rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.cart-counter {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  background-color: #4caf50;
+  color: #fff;
+  border-radius: 10px;
+  width: 1.8rem;
+  height: 2rem;
+}
+
+.cart-num {
+  font-size: 1.5rem;
+  position: relative;
+  right: -0.5rem;
+  top: 0.2rem;
+}
+
+/**************************/
+/* CERTIFICATION SECTION */
+/**************************/
+
+.section-certificate {
+  margin-top: 10rem;
+  text-align: center;
+}
+
+.certificate-text {
+  font-size: 2.8rem;
+  margin-bottom: 1.6rem;
+}
+
+.certification-box {
+  margin: 5rem 30rem;
+  overflow: hidden;
+}
+
+.certification img {
+  width: 100%;
+}
+
+/**************************/
+/* FO0TER */
+/**************************/
+
+.footer-box {
+  padding: 5rem 14rem 2rem 14rem;
+}
+
+.footer-box,
+.footer-link-box,
+.footer-links,
+.newspaper {
+  flex-direction: column;
+}
+
+.newspaper {
+  gap: 2.2rem;
+  align-items: flex-start;
+  margin-right: 5rem;
+  justify-content: center;
+}
+.newspaper span {
+  font-size: 1.6rem;
+}
+
+.subscribe-form {
+  flex-direction: column;
+}
+
+.subscribe-form input {
+  width: 100%;
+  padding: 0.6rem;
+  font-size: 1.8rem;
+  border-radius: 9px;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
+  margin-bottom: 1rem;
+}
+
+.subscribe-form input::placeholder {
+  color: #aaa;
+}
+
+.sub-btn {
+  width: 50%;
+  padding: 0.6rem;
+  font-size: 1.5rem;
+  border-radius: 15px;
+  background-color: #b6e45d;
+  align-self: center;
+}
+
+.footer-title {
+  font-size: 2.4rem;
+}
+
+.footer-links-box {
+  margin: 0 auto;
+  align-items: center;
+}
+
+.footer-link-box {
+  gap: 2rem;
+  align-items: center;
+}
+
+.footer-links {
+  gap: 1.8rem;
+  font-size: 1.6rem;
+}
+
+.footer-link-text:hover,
+.footer-link-text:active {
+  opacity: 0.5;
+}
+
+.copyright-box {
+  margin-top: 5rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.copyright-text {
+  margin-bottom: 0.5rem;
+}
