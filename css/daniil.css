@@ -1,0 +1,43 @@
+.container {
+    background-color: whitesmoke;
+   
+}
+
+
+.title-2 {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color:rgb(116, 125, 77);
+    font-size: 32px;
+   text-align: center;
+}
+
+.our_collection_photo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+
+}
+
+.photo {
+    position: relative;
+    display: block;
+  
+}
+
+.photo__img {
+    width: 75%;
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+   
+
+}
+
+.photo__title {
+    position: absolute;
+    z-index: 10;
+    left: 15%;
+    bottom: 0;
+    font-size: 48px;
+    color:aquamarine;
+}
