@@ -142,43 +142,55 @@ main {
 /* ////////////////////////////////////////////// */
 
 .section1 {
-    text-align: center;
-    padding: 50px;
-    font-family: Kanit;
-    background-image: url(pexels-karolina-grabowska-52082466699.jpg);
-    background-size: 100% 100%;
-    height: 63vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 1px solid black; */
+    font-family: kanit;
 }
 
-.why-us-info {
-    position: absolute;
-    left: 721px;
+.main-card-title {
+    text-align: center;
+    padding: 15px;
+    font-size: 25px;
+    text-shadow: 0px 0px 20px #0000004f;
+}
+
+.main-card {
+    display: flex;
+    gap: 30px;
+    /* border: 1px solid red; */
+    justify-content: center;
+    padding: 15px 50px;
+
+}
+
+.box {
+    /* border: 1px solid blue; */
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 30px;
+    padding: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 5px #e3e3e3;
+
 }
 
-.p-header {
-    font-size: 40px;
-    font-weight: bold;
-    color: #323232;;
+.title {
+    font-size: 30px;
 }
 
-.p-line {
-    font-size: 22px;
-    color: black;
+.text {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.4;
 }
 
-.p-paragraph {
-   padding-left: 150px;
-   padding-right: 150px;
-   font-size: 16px;
-   line-height: 1.3;
-   color: #2f2f2f;
+.icons {
+    height: 100px;
+    width: 100px;
 }
-
-.color-title {
-    color: #999b01;
-}
+   
