@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+}
+
+.section {
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider {
+    /* width: 1150px; */
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+
+.slide {
+    width: 600%;
+    height: 500px;
+    display: flex;
+}
+
+.slide input {
+    display: none;
+}
+
+.st {
+    width: 20%;
+    transition: 1.5s;
+}
+
+.st img {
+    /* width: 1190px; */
+    width: 100%;
+    /* height: 600px; */
+    height: 230%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.nav-m {
+    position: absolute;
+    margin-top: 60px;
+    /* justify-content: center; */
+    display: flex;
+    left: 688px;
+}
+
+.m-btn {
+    border: 2px solid #999b01;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.m-btn:not(:last-child) {
+    margin-right: 30px;
+}
+
+.m-btn:hover {
+    background-color: #999b01;
+}
+
+#radio1:checked ~.first {
+    margin-left: 0;
+}
+
+#radio2:checked ~.first {
+    margin-left: -20%;
+}
+
+#radio3:checked ~.first {
+    margin-left: -40%;
+}
+
+#radio4:checked ~.first {
+    margin-left: -60%;
+}
+
+#radio5:checked ~.first {
+    margin-left: -80%;
+}
+
+#radio6:checked ~.first {
+    margin-left: -100%;
+}
+
+.nav-auto {
+    position: absolute;
+    margin-top: 560px;
+    display: flex;
+    /* justify-content: center; */
+    left: 688px;
+}
+
+.nav-auto div {
+    border: 2px solid #999b01;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.nav-auto div:not(:last-child) {
+    margin-right: 30px;
+    justify-content: center;
+}
+
+#radio1:checked ~ .nav-auto .a-b1 {
+    background-color: #999b01;
+}
+
+#radio2:checked ~ .nav-auto .a-b2 {
+    background-color: #999b01;
+}
+
+#radio3:checked ~ .nav-auto .a-b3 {
+    background-color: #999b01;
+}
+
+#radio4:checked ~ .nav-auto .a-b4 {
+    background-color: #999b01;
+}
+
+#radio5:checked ~ .nav-auto .a-b5 {
+    background-color: #999b01;
+}
+
+#radio6:checked ~ .nav-auto .a-b6 {
+    background-color: #999b01;
+}
+
+/* ////////////////////////////////////////////// */
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 1px solid black; */
+    font-family: kanit;
+}
+
+.main-card-title {
+    text-align: center;
+    padding: 15px;
+    font-size: 25px;
+    text-shadow: 0px 0px 20px #0000004f;
+}
+
+.main-card {
+    display: flex;
+    gap: 30px;
+    /* border: 1px solid red; */
+    justify-content: center;
+    padding: 15px 50px;
+
+}
+
+.box {
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 5px #e3e3e3;
+
+}
+
+.title {
+    font-size: 30px;
+}
+
+.text {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.icons {
+    height: 100px;
+    width: 100px;
+}
+   
