@@ -1,0 +1,47 @@
+.container {
+    background-color: whitesmoke;
+    padding-bottom: 50px;
+   
+}
+
+
+.title-2 {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color:rgb(116, 125, 77);
+    font-size: 32px;
+   text-align: center;
+}
+
+.our_collection_photo {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+
+}
+
+.photo {
+    position: relative;
+    display: block;
+  
+}
+
+.photo__img {
+    width: 100%;
+    position: relative;
+    margin-left: 5%;
+    margin-right: 10%;
+   
+
+}
+
+.photo__title {
+    background-color: bisque;
+    position: absolute;
+    z-index: 10;
+    left: 5%;
+    bottom: -40px;
+    font-size: 32px;
+    color:brown;
+    border-radius: 10%;
+    border-color: aquamarine;
+}
