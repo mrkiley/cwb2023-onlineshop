@@ -84,5 +84,11 @@
       "price": 699.99,
       "description": "Advanced drones for aerial photography and videography."
     }
+  ],
+  "users": [
+    {
+      "name": "Kiley",
+      "age": 75
+    }
   ]
 }
