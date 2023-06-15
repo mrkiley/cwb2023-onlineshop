@@ -38,6 +38,7 @@ img {
 
 #testimonials .back-button,
 #testimonials .forward-button {
+    background: transparent;
     border: none;
 }
 
@@ -53,7 +54,9 @@ img {
 
 #testimonials .slider {
     background-color: white;
+    border-radius: 50%;
     height: 20em;
+    opacity: 0.75;
     overflow: hidden;
     position: relative;
     width: 60ch;
