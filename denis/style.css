@@ -103,7 +103,7 @@ img {
 }
 
 #recipes .cards-wrapper {
-    column-gap: 1em;
+    column-gap: 3em;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 0 auto;
@@ -113,23 +113,25 @@ img {
     row-gap: 3em;
 }
 
-#recipes a {
+#recipes .card {
     color: black;
     text-decoration: none;
 }
 
-#recipes a:hover {
-    color: darkolivegreen;
-}
-
-#recipes figure img {
+#recipes .card img {
     max-width: 360px;
     width: 100%;
+    transition: border-radius 0.25s;
+    box-shadow: 0.5em 0.5em 1em gray, -0.5em 0.5em 1em gray;
 }
 
-#recipes figure figcaption {
+#recipes .card:hover img {
+    border-radius: 3em;
+}
+
+#recipes .card figcaption {
     font-weight: bold;
-    padding: 0.5em 0;
+    padding-top: 1em;
     text-align: center;
 }
 
@@ -143,4 +145,5 @@ img {
     padding: 1em;
     place-items: center;
     width: 8em;
+    text-decoration: none;
 }
