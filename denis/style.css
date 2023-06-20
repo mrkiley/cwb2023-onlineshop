@@ -1,0 +1,149 @@
+/* CSS clear */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+}
+
+/* Testimonials block */
+
+#testimonials {
+    background-image: url(img/front-testimonials/backgroud-testimonials.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#testimonials h2 {
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+#testimonials .slider-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 60ch 1fr;
+    padding-bottom: 5em;
+}
+
+#testimonials .shutter {
+    align-items: center;
+    display: grid;
+}
+
+#testimonials .back-button,
+#testimonials .forward-button {
+    background: transparent;
+    border: none;
+}
+
+#testimonials .back-button {
+    justify-self: right;
+    margin-right: 3em;
+}
+
+#testimonials .forward-button {
+    justify-self: left;
+    margin-left: 3em;
+}
+
+#testimonials .slider {
+    background-color: white;
+    border-radius: 50%;
+    height: 20em;
+    opacity: 0.75;
+    overflow: hidden;
+    position: relative;
+    width: 60ch;
+}
+
+#testimonials article {
+    display: none;
+    padding: 1em 3em;
+    position: absolute;
+    text-align: center;
+    transition: left 1s;
+    width: 60ch;
+}
+
+#testimonials article.prev {
+    display: block;
+    left: -60ch;
+}
+
+#testimonials article.current {
+    display: block;
+    left: 0;
+}
+
+#testimonials article.next {
+    display: block;
+    left: 60ch;
+}
+
+#testimonials h3 {
+    margin-top: 2em;
+}
+
+#testimonials h4 {
+    margin-bottom: 2em;
+}
+
+/* Recipes block */
+
+#recipes h2 {
+    color: black;
+    padding: 1em 0;
+    text-align: center;
+}
+
+#recipes .cards-wrapper {
+    column-gap: 3em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 5%;
+    place-items: center;
+    row-gap: 3em;
+}
+
+#recipes .card {
+    color: black;
+    text-decoration: none;
+}
+
+#recipes .card img {
+    max-width: 360px;
+    width: 100%;
+    transition: border-radius 0.25s;
+    box-shadow: 0.5em 0.5em 1em gray, -0.5em 0.5em 1em gray;
+}
+
+#recipes .card:hover img {
+    border-radius: 3em;
+}
+
+#recipes .card figcaption {
+    font-weight: bold;
+    padding-top: 1em;
+    text-align: center;
+}
+
+#recipes .view-all,
+#recipes .view-all:hover {
+    background-color: darkolivegreen;
+    border-radius: 0.5em;
+    color: white;
+    display: grid;
+    margin: 3em auto;
+    padding: 1em;
+    place-items: center;
+    width: 8em;
+    text-decoration: none;
+}
