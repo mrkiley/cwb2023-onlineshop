@@ -6,7 +6,9 @@ For your final project, you will use your cumulative knowledge from this course 
 
 ## Project Requirements:
 
-1. **Database Integration**: Your website will interface with a pre-existing database containing many different types of vegetables, five users with wallets, and some other items. The data from this database should be used to populate your website with dynamic content. You should use asynchronous JavaScript (AJAX) or fetch API to retrieve data from this database.
+1. **Database Integration**: Your website will interface with a pre-existing remote database containing many different types of vegetables, five users with wallets, and some other items. The data from this database should be used to populate your website with dynamic content. You should use asynchronous JavaScript (AJAX) or fetch API to retrieve data from this database. <br /><br />**You can access the database at the following endpoint:**
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**GET** https://my-json-server.typicode.com/mrkiley/cwb2023-onlineshop/db
 
 2. **Shopping Cart**: Each time the web page loads, a random user should be selected from the list of users that is stored in the database. That user should then have 5-10 random vegetables added to their shopping cart. The following information about the selected user and the vegetables in their shopping cart should be displayed in the console:
 <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* The full name of the selected user
