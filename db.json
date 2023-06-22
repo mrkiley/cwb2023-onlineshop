@@ -30,18 +30,14 @@
     {"id": "7e3e0fc3-3e32-4139-b403-6dfc58f8c4be", "name": "Leek", "price": 2.4, "currency": "USD", "average_weight_kg": 0.1, "image": "https://placehold.co/250x250?text=Leek", "category": "vegetable"},
     {"id": "baa9ea2e-6a19-4bc3-b7e7-5f2e6a7f4021", "name": "Okra", "price": 3.0, "currency": "USD", "average_weight_kg": 0.02, "image": "https://placehold.co/250x250?text=Okra", "category": "vegetable"},
     {"id": "76d44fa6-19be-46c8-895a-32c5a658a467", "name": "Rutabaga", "price": 1.8, "currency": "USD", "average_weight_kg": 0.5, "image": "https://placehold.co/250x250?text=Rutabaga", "category": "vegetable"},
-    {"id": "f4d3d9c4-442d-4d1b-88e0-9384f9e58a78", "name": "Smartphone", "price": 799.99, "description": "A high-end smartphone with advanced features.", "currency": "USD", "category": "electronics"},
+    {"id": "f4d3d9c4-442d-4d1b-88e0-9384f9e58a78", "name": "Smartphone", "price": 799.99, "currency": "USD", "category": "electronics"},
     {"id": "86a3edc1-0b21-4c6f-94fd-c89c3a91e8f6", "name": "Laptop", "price": 1499.99, "description": "A powerful laptop for professional use and gaming.", "currency": "USD", "category": "electronics"},
     {"id": "dc432184-c1a7-4221-baf2-6c4b0c1b2c54", "name": "Headphones", "price": 199.99, "description": "Wireless headphones with noise-cancelling technology.", "currency": "USD", "category": "electronics"},
-    {"id": "2b59b1b2-d8fb-4d32-9e18-49b8d7e607b6", "name": "Smart TV", "price": 1299.99, "description": "A large-screen smart TV with 4K resolution.", "currency": "USD", "category": "electronics"},
-    {"id": "e3f2b29c-7e43-471e-bcb2-62fdd5c56d9e", "name": "Gaming Console", "price": 499.99, "description": "A popular gaming console with a wide range of games.", "currency": "USD", "category": "electronics"},
+    {"id": "2b59b1b2-d8fb-4d32-9e18-49b8d7e607b6", "name": "Smart TV", "price": 1299.99, "description": "A smart TV with 4K resolution.", "currency": "USD", "category": "electronics"},
     {"id": "52f5a6e5-58bc-4a07-9b8c-16064280d49d", "name": "Tablet", "price": 399.99, "description": "A portable tablet for entertainment and productivity.", "currency": "USD", "category": "electronics"},
-    {"id": "89efb0c9-1ed2-4d57-bc1c-0eabfe8b8d54", "name": "Wireless Speaker", "price": 99.99, "description": "A portable speaker with Bluetooth connectivity.", "currency": "USD", "category": "electronics"},
     {"id": "f50f4542-ef95-4f68-9d2f-0f9d4f4b5a77", "name": "Camera", "price": 899.99, "description": "A high-resolution camera for professional photography.", "currency": "USD", "category": "electronics"},
     {"id": "22eb5edf-46e5-4399-97a6-8231fe886fd6", "name": "Smart Watch", "price": 299.99, "description": "A stylish smartwatch with fitness tracking features.", "currency": "USD", "category": "electronics"},
-    {"id": "aef176c5-7fc0-4df0-b9b2-45ef0e689835", "name": "Wireless Earbuds", "price": 149.99, "description": "True wireless earbuds with long battery life.", "currency": "USD", "category": "electronics"},
-    {"id": "4dcab3e5-98ea-4ce2-85f3-7648f8c4b746", "name": "Home Theater System", "price": 799.99, "description": "A complete home theater system for immersive audio experience.", "currency": "USD", "category": "electronics"},
-    {"id": "ac6d733b-10a3-4dc0-b935-62f3e5f327c3", "name": "Drones", "price": 699.99, "description": "Advanced drones for aerial photography and videography.", "currency": "USD", "category": "electronics"}
+    {"id": "aef176c5-7fc0-4df0-b9b2-45ef0e689835", "name": "Wireless Earbuds", "price": 149.99, "description": "True wireless earbuds with long battery life.", "currency": "USD", "category": "electronics"}
   ],
   "users": [
     {"uuid": "1535bd06-3978-4f32-9196-d7683be86543", "familyName": "Jakovljevic", "givenName": "Petar", "age": 31, "gender": "male", "wallet": 1357.44, "location": "Zagreb", "hobbies": "reading, swimming, cycling"},
