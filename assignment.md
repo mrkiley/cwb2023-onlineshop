@@ -47,6 +47,10 @@ As you work on your project, you should ensure your code displays the following 
 2. Create a pull request with your code to the special Github repository assigned to you
 3. A brief written explanation of your website (no more than 500 words), which should include what you've learned over the course, how you implemented the JavaScript fundamental skills, and any challenges you faced and how you overcame them.
 
+## Additional Notes
+* You may start with the collaborative organic vegetables website project as your base, or you can feel free to start from scratch.
+* You can use any CSS framework with which you feel comfortable, but you are not required to use a framework.
+
 **Remember to ask questions if you get stuck!**
 
 This project is due on July 10. Good luck, and we look forward to seeing what you create!
