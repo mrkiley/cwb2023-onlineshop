@@ -1,95 +1,47 @@
 {
   "products": [
-    {
-      "id": 1,
-      "name": "Smartphone",
-      "category": "Electronics",
-      "price": 799.99,
-      "description": "A high-end smartphone with advanced features."
-    },
-    {
-      "id": 2,
-      "name": "Laptop",
-      "category": "Electronics",
-      "price": 1499.99,
-      "description": "A powerful laptop for professional use and gaming."
-    },
-    {
-      "id": 3,
-      "name": "Headphones",
-      "category": "Electronics",
-      "price": 199.99,
-      "description": "Wireless headphones with noise-cancelling technology."
-    },
-    {
-      "id": 4,
-      "name": "Smart TV",
-      "category": "Electronics",
-      "price": 1299.99,
-      "description": "A large-screen smart TV with 4K resolution."
-    },
-    {
-      "id": 5,
-      "name": "Gaming Console",
-      "category": "Electronics",
-      "price": 499.99,
-      "description": "A popular gaming console with a wide range of games."
-    },
-    {
-      "id": 6,
-      "name": "Tablet",
-      "category": "Electronics",
-      "price": 399.99,
-      "description": "A portable tablet for entertainment and productivity."
-    },
-    {
-      "id": 7,
-      "name": "Wireless Speaker",
-      "category": "Electronics",
-      "price": 99.99,
-      "description": "A portable speaker with Bluetooth connectivity."
-    },
-    {
-      "id": 8,
-      "name": "Camera",
-      "category": "Electronics",
-      "price": 899.99,
-      "description": "A high-resolution camera for professional photography."
-    },
-    {
-      "id": 9,
-      "name": "Smart Watch",
-      "category": "Electronics",
-      "price": 299.99,
-      "description": "A stylish smartwatch with fitness tracking features."
-    },
-    {
-      "id": 10,
-      "name": "Wireless Earbuds",
-      "category": "Electronics",
-      "price": 149.99,
-      "description": "True wireless earbuds with long battery life."
-    },
-    {
-      "id": 11,
-      "name": "Home Theater System",
-      "category": "Electronics",
-      "price": 799.99,
-      "description": "A complete home theater system for immersive audio experience."
-    },
-    {
-      "id": 12,
-      "name": "Drones",
-      "category": "Electronics",
-      "price": 699.99,
-      "description": "Advanced drones for aerial photography and videography."
-    }
+    {"id": "4b7d6a14-5432-4daf-a9d8-ef662d546687", "name": "Carrot", "price": 1.5, "currency": "USD", "average_weight_kg": 0.1, "image": "https://placehold.co/250x250?text=Carrot", "category": "vegetable"},
+    {"id": "b91b6347-624b-4550-a7e9-8c37f27bdf1c", "name": "Potato", "price": 0.75, "currency": "USD", "average_weight_kg": 0.2, "image": "https://placehold.co/250x250?text=Potato", "category": "vegetable"},
+    {"id": "0cd1cdeb-bd8b-4564-8a5b-af52716b625a", "name": "Tomato", "price": 2.0, "currency": "USD", "average_weight_kg": 0.1, "image": "https://placehold.co/250x250?text=Tomato", "category": "vegetable"},
+    {"id": "d5cbf5ca-b831-41b4-8f83-a7ac3a4ef490", "name": "Broccoli", "price": 2.5, "currency": "USD", "average_weight_kg": 0.3, "image": "https://placehold.co/250x250?text=Broccoli", "category": "vegetable"},
+    {"id": "17b7ca5a-cbc1-4e5e-bad8-c8b5c4c108a3", "name": "Cucumber", "price": 1.25, "currency": "USD", "average_weight_kg": 0.15, "image": "https://placehold.co/250x250?text=Cucumber", "category": "vegetable"},
+    {"id": "8e9302db-c088-4dd3-8c16-ffa44a00d5a8", "name": "Spinach", "price": 3.0, "currency": "USD", "average_weight_kg": 0.05, "image": "https://placehold.co/250x250?text=Spinach", "category": "vegetable"},
+    {"id": "7baef67a-9b14-43c7-9416-8e0b9c3c5a40", "name": "Kale", "price": 3.5, "currency": "USD", "average_weight_kg": 0.1, "image": "https://placehold.co/250x250?text=Kale", "category": "vegetable"},
+    {"id": "bb1267b4-d11c-444c-98cd-0bf8754f5b1b", "name": "Bell Pepper", "price": 1.75, "currency": "USD", "average_weight_kg": 0.2, "image": "https://placehold.co/250x250?text=Bell%20Pepper", "category": "vegetable"},
+    {"id": "4ab5896b-d0a3-4a82-8a3b-9072f25f1eda", "name": "Zucchini", "price": 1.5, "currency": "USD", "average_weight_kg": 0.15, "image": "https://placehold.co/250x250?text=Zucchini", "category": "vegetable"},
+    {"id": "15f3a5a7-5461-4e7e-ba27-6d992faa4e45", "name": "Eggplant", "price": 2.25, "currency": "USD", "average_weight_kg": 0.25, "image": "https://placehold.co/250x250?text=Eggplant", "category": "vegetable"},
+    {"id": "e3d5112a-a8f2-4a3a-8b91-394ef7e65bd3", "name": "Beetroot", "price": 1.6, "currency": "USD", "average_weight_kg": 0.2, "image": "https://placehold.co/250x250?text=Beetroot", "category": "vegetable"},
+    {"id": "cf2335ce-2701-4c4e-a8ed-48ab8273e693", "name": "Onion", "price": 0.6, "currency": "USD", "average_weight_kg": 0.15, "image": "https://placehold.co/250x250?text=Onion", "category": "vegetable"},
+    {"id": "9ac728af-efc6-4723-a6ca-d17b22d4b6a1", "name": "Pumpkin", "price": 4.0, "currency": "USD", "average_weight_kg": 5.0, "image": "https://placehold.co/250x250?text=Pumpkin", "category": "vegetable"},
+    {"id": "a31a3926-9254-4bd3-899e-52f45b91ad86", "name": "Turnip", "price": 1.1, "currency": "USD", "average_weight_kg": 0.3, "image": "https://placehold.co/250x250?text=Turnip", "category": "vegetable"},
+    {"id": "b2b82ea5-f13b-4c7f-84dd-516e2538522c", "name": "Squash", "price": 2.5, "currency": "USD", "average_weight_kg": 1.0, "image": "https://placehold.co/250x250?text=Squash", "category": "vegetable"},
+    {"id": "e303608b-5a1e-46b3-8f6f-9e789ca4ef57", "name": "Asparagus", "price": 2.75, "currency": "USD", "average_weight_kg": 0.03, "image": "https://placehold.co/250x250?text=Asparagus", "category": "vegetable"},
+    {"id": "21f6e649-a74d-4b8f-b3c4-ea47a1ecd3a1", "name": "Artichoke", "price": 2.5, "currency": "USD", "average_weight_kg": 0.6, "image": "https://placehold.co/250x250?text=Artichoke", "category": "vegetable"},
+    {"id": "2b5f6bd9-3bfb-40a6-b0e8-2f0bb9ed0301", "name": "Brussels Sprouts", "price": 3.0, "currency": "USD", "average_weight_kg": 0.02, "image": "https://placehold.co/250x250?text=Brussels%20Sprouts", "category": "vegetable"},
+    {"id": "8b9c3a88-aab3-4d74-8966-6b9f36a1a77a", "name": "Chard", "price": 2.1, "currency": "USD", "average_weight_kg": 0.05, "image": "https://placehold.co/250x250?text=Chard", "category": "vegetable"},
+    {"id": "36e4f593-2f32-4c1b-a449-4b7a85f7e3ba", "name": "Collard Greens", "price": 1.9, "currency": "USD", "average_weight_kg": 0.4, "image": "https://placehold.co/250x250?text=Collard%20Greens", "category": "vegetable"},
+    {"id": "f9f26737-d75a-484c-9f5c-9a8aaf1ef9c4", "name": "Corn", "price": 0.7, "currency": "USD", "average_weight_kg": 0.2, "image": "https://placehold.co/250x250?text=Corn", "category": "vegetable"},
+    {"id": "47b0edf2-cf87-4d16-81f8-d6557a0c251a", "name": "Celery", "price": 1.3, "currency": "USD", "average_weight_kg": 0.4, "image": "https://placehold.co/250x250?text=Celery", "category": "vegetable"},
+    {"id": "7e3e0fc3-3e32-4139-b403-6dfc58f8c4be", "name": "Leek", "price": 2.4, "currency": "USD", "average_weight_kg": 0.1, "image": "https://placehold.co/250x250?text=Leek", "category": "vegetable"},
+    {"id": "76d44fa6-19be-46c8-895a-32c5a658a467", "name": "Rutabaga", "price": 1.8, "currency": "USD", "average_weight_kg": 0.5, "image": "https://placehold.co/250x250?text=Rutabaga", "category": "vegetable"},
+    {"id": "f4d3d9c4-442d-4d1b-88e0-9384f9e58a78", "name": "Smartphone", "price": 799.99, "currency": "USD", "category": "electronics"},
+    {"id": "86a3edc1-0b21-4c6f-94fd-c89c3a91e8f6", "name": "Laptop", "price": 1499.99, "description": "A powerful laptop for professional use and gaming.", "currency": "USD", "category": "electronics"},
+    {"id": "2b59b1b2-d8fb-4d32-9e18-49b8d7e607b6", "name": "Smart TV", "price": 1299.99, "description": "A smart TV with 4K resolution.", "currency": "USD", "category": "electronics"},
+    {"id": "52f5a6e5-58bc-4a07-9b8c-16064280d49d", "name": "Tablet", "price": 399.99, "description": "A portable tablet for entertainment and productivity.", "currency": "USD", "category": "electronics"},
+    {"id": "f50f4542-ef95-4f68-9d2f-0f9d4f4b5a77", "name": "Camera", "price": 899.99, "description": "A high-resolution camera for professional photography.", "currency": "USD", "category": "electronics"},
+    {"id": "22eb5edf-46e5-4399-97a6-8231fe886fd6", "name": "Smart Watch", "price": 299.99, "description": "A stylish smartwatch with fitness tracking features.", "currency": "USD", "category": "electronics"}
   ],
   "users": [
-    {
-      "name": "Kiley",
-      "age": 75,
-      "money": 319.00
-    }
+    {"uuid": "1535bd06-3978-4f32-9196-d7683be86543", "familyName": "Jakovljevic", "givenName": "Petar", "age": 31, "gender": "male", "wallet": 1357.44, "location": "Zagreb", "hobbies": "reading, swimming, cycling"},
+    {"uuid": "b670a711-4609-4e54-b89b-d0f9e8eb6ea7", "familyName": "Maric", "givenName": "Ana", "age": 24, "gender": "female", "wallet": 2981.73, "location": "Split", "hobbies": "cooking, dancing, painting"},
+    {"uuid": "d68a4ef8-b849-4db8-a534-3b8888e58b1d", "familyName": "Horvat", "givenName": "Ivan", "age": 45, "gender": "male", "wallet": 2540.98, "location": "Rijeka", "hobbies": "hiking, fishing, photography"},
+    {"uuid": "6b0c09b6-590c-4734-8cf5-3d7df1b87943", "familyName": "Kovacic", "givenName": "Katarina", "age": 27, "gender": "female", "wallet": 1748.61, "location": "Osijek", "hobbies": "yoga, writing, travelling"},
+    {"uuid": "db86c586-5a61-457b-b65d-9be2aee4fca3", "familyName": "Babic", "givenName": "Marko", "age": 36, "gender": "male", "wallet": 2327.83, "location": "Zadar", "hobbies": "gaming, woodworking, guitar"},
+    {"uuid": "e3718f24-5c0b-4118-b262-e6a3cd59d4e3", "familyName": "Novak", "givenName": "Mia", "age": 40, "gender": "female", "wallet": 2104.67, "location": "Pula", "hobbies": "knitting, gardening, baking"},
+    {"uuid": "41e33cd8-5a2d-43df-8e5d-9e6bfee7d38b", "familyName": "Jankovic", "givenName": "Luka", "age": 29, "gender": "male", "wallet": 1876.20, "location": "Karlovac", "hobbies": "running, music, movies"},
+    {"uuid": "ab328b1c-40ac-4d31-a7b2-6974dd0f4bb7", "familyName": "Tomic", "givenName": "Iva", "age": 38, "gender": "female", "wallet": 2243.19, "location": "Varazdin", "hobbies": "singing, piano, pottery"},
+    {"uuid": "f1203b1d-9569-4e78-b61f-3a73b0400c8a", "familyName": "Kralj", "givenName": "Josip", "age": 42, "gender": "male", "wallet": 2652.39, "location": "Sibenik", "hobbies": "bird watching, astronomy, chess"},
+    {"uuid": "108e7b50-8e7d-4a45-a5f2-353e2a76c4a9", "familyName": "Perkovic", "givenName": "Marija", "age": 35, "gender": "female", "wallet": 2071.52, "location": "Dubrovnik", "hobbies": "sculpting, photography, wine tasting"}
   ]
+  
 }
