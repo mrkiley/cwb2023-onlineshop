@@ -1,63 +1,85 @@
-const slideList = Array.from(document.querySelector("#testimonials .slider").children);
+/*
+Automatic slider function.
+Adds classes for previous, current and next slides, and shifts them in a cycle.
 
-// Start with random slide as current.
-let currentSlide = getRandomInt(slideList.length);
+Takes arguments:
+    slidesContainer
+        Element which contains slide elements as direct children.
+    changeTime
+        Time in seconds between change of slides (5 by default).
 
-// Assign initial slide classes.
-addSlideClasses(slideList);
+Control methods (self-explanatory):
+    start()
+    stop()
+    prev()
+    next()
+*/
 
-// Define a globally accessible variable for storing a value to stop slider via clearInterval().
-let stopSlider;
+function autoSlider(slidesContainer, changeTime=5) {
+    const slides = Array.from(slidesContainer.children);
 
+    // Returns random number from 0 to max.
+    function getRandomSlide() {
+        return Math.floor(Math.random() * slides.length);
+    }
+
+    // Start with random slide as current.
+    let currentSlide = getRandomSlide();
+
+    // Assign initial slide classes.
+    addSlideClasses();
+
+    // Define local variable for a value to stop slider via clearInterval().
+    let stopSlider;
+
+    function removeSlideClasses() {
+        slides.at(currentSlide - 1).classList.remove("prev");
+        slides.at(currentSlide).classList.remove("current");
+        slides.at(currentSlide + 1 - slides.length).classList.remove("next");
+    }
+
+    function addSlideClasses() {
+        slides.at(currentSlide - 1).classList.add("prev");
+        slides.at(currentSlide).classList.add("current");
+        slides.at(currentSlide + 1 - slides.length).classList.add("next");
+    }
+
+    return {
+        start: function() {
+            stopSlider = setInterval(() => {this.next(slides)}, changeTime * 1000);
+        },
+        stop: function() {
+            clearInterval(stopSlider);
+        },
+        prev: function() {
+                removeSlideClasses();
+                if (--currentSlide < 0) currentSlide = slides.length - 1;
+                addSlideClasses();
+        },
+        next: function() {
+            removeSlideClasses();
+            if (++currentSlide === slides.length) currentSlide = 0;
+            addSlideClasses();
+        }
+    }
+}
+
+let slider = autoSlider(document.querySelector(".slider"));
 window.addEventListener("load", () => {
-    startSlider(slideList);
+    slider.start();
 })
 
-function startSlider(slides) {
-    stopSlider = setInterval(() => {nextSlide(slides)}, 10_000);
-}
+let prevSlideButton = document.querySelector(".back-button");
+let nextSlideButton = document.querySelector(".forward-button");
 
-function removeSlideClasses(slides) {
-    slides.at(currentSlide - 1).classList.remove("prev");
-    slides.at(currentSlide).classList.remove("current");
-    slides.at(currentSlide + 1 - slides.length).classList.remove("next");
-}
-
-function addSlideClasses(slides) {
-    slides.at(currentSlide - 1).classList.add("prev");
-    slides.at(currentSlide).classList.add("current");
-    slides.at(currentSlide + 1 - slideList.length).classList.add("next");
-}
-
-function nextSlide(slides) {
-    removeSlideClasses(slides);
-    if (++currentSlide === slides.length) currentSlide = 0;
-    addSlideClasses(slides);
-}
-
-function prevSlide(slides) {
-    removeSlideClasses(slides);
-    if (--currentSlide < 0) currentSlide = slides.length - 1;
-    addSlideClasses(slides);
-}
-
-// Returns random number from 0 to max.
-function getRandomInt(max) {
-    return Math.floor(Math.random() * max);
-}
-
-// Buttons for manual slide change.
-const backSliderButton = document.querySelector(".back-button");
-const forwardSliderButton = document.querySelector(".forward-button");
-
-backSliderButton.addEventListener("click", () => {
-    clearInterval(stopSlider);
-    prevSlide(slideList);
-    startSlider(slideList);
+prevSlideButton.addEventListener("click", () => {
+    slider.stop();
+    slider.prev();
+    slider.start();
 })
 
-forwardSliderButton.addEventListener("click", () => {
-    clearInterval(stopSlider);
-    nextSlide(slideList);
-    startSlider(slideList);
+nextSlideButton.addEventListener("click", () => {
+    slider.stop();
+    slider.next();
+    slider.start();
 })
