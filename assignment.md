@@ -53,4 +53,4 @@ As you work on your project, you should ensure your code displays the following 
 
 **Remember to ask questions if you get stuck!**
 
-This project is due on July 10. Good luck, and we look forward to seeing what you create!
+This project is due on **July 28**. Good luck, and we look forward to seeing what you create!
